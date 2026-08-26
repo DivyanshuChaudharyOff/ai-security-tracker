@@ -35,6 +35,7 @@ README = ROOT / "README.md"
 
 LOOKBACK_DAYS = 7          # window for CVEs / papers / news
 KEV_RECENT_DAYS = 14       # "newly added to KEV" window
+BACKFILL_WINDOWS = 3       # 3 x 60-day windows = ~6 months for search index
 HTTP_TIMEOUT = 25
 
 AI_PACKAGES = [
@@ -158,6 +159,65 @@ def fetch_nvd() -> tuple[list, str]:
     return items[:12], status
 
 
+def fetch_nvd_backfill(kev_ids: set) -> list:
+    """Rolling ~6-month index of AI/LLM CVEs powering the search page."""
+    out, seen = [], set()
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    windows = []
+    for w in range(BACKFILL_WINDOWS):
+        end = now - timedelta(days=60 * w)
+        start = end - timedelta(days=60)
+        windows.append((start, end))
+    for kw in ("LLM", "language model"):
+        for start, end in windows:
+            url = (
+                "https://services.nvd.nist.gov/rest/json/cves/2.0"
+                f"?keywordSearch={urllib.parse.quote(kw)}"
+                f"&pubStartDate={start.strftime('%Y-%m-%dT%H:%M:%S.000')}"
+                f"&pubEndDate={end.strftime('%Y-%m-%dT%H:%M:%S.000')}"
+                "&resultsPerPage=200"
+            )
+            try:
+                data = json.loads(http_get(url))
+            except Exception as exc:
+                print(f"[backfill] '{kw}' {start:%m-%d} failed: {exc}",
+                      file=sys.stderr)
+                continue
+            time.sleep(6)  # respect unauthenticated rate limit
+            for vuln in (data.get("vulnerabilities") or []):
+                cve = (vuln.get("cve") or {})
+                cid = cve.get("id", "")
+                if not cid or cid in seen:
+                    continue
+                seen.add(cid)
+                desc = ""
+                for d in cve.get("descriptions", []):
+                    if d.get("lang") == "en":
+                        desc = d.get("value", "")
+                        break
+                score = sev = None
+                for key in ("cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
+                    arr = cve.get("metrics", {}).get(key) or []
+                    if arr:
+                        cv = arr[0].get("cvssData", {})
+                        score = score if score is not None else cv.get("baseScore")
+                        sev = sev or cv.get("baseSeverity")
+                        break
+                out.append({
+                    "id": cid,
+                    "published": (cve.get("published") or "")[:10],
+                    "score": score,
+                    "severity": sev,
+                    "kev": cid in kev_ids,
+                    "summary": clean(desc, 320),
+                    "url": f"https://nvd.nist.gov/vuln/detail/{cid}",
+                })
+    out.sort(key=lambda x: x["published"], reverse=True)
+    (DATA_DIR / "ai_cve_index.json").write_text(
+        json.dumps(out, separators=(",", ":")), encoding="utf-8")
+    return out
+
+
 def fetch_kev() -> dict:
     """CISA Known Exploited Vulnerabilities: totals + recent + AI matches."""
     url = ("https://www.cisa.gov/sites/default/files/feeds/"
@@ -185,6 +245,7 @@ def fetch_kev() -> dict:
     recent.sort(key=lambda v: v.get("dateAdded", ""), reverse=True)
     return {
         "total": len(vulns),
+        "kev_ids": sorted(v.get("cveID") for v in vulns if v.get("cveID")),
         "recent": [
             {
                 "id": v.get("cveID"),
@@ -451,15 +512,21 @@ def main():
     hn, hn_status = [], "failed"
 
     try:
+        kev = fetch_kev()
+        print(f"[kev]   ok ({kev['total']} total)")
+    except Exception as exc:
+        print(f"[kev] failed: {exc}", file=sys.stderr)
+    try:
         nvd, nvd_status = fetch_nvd()
         print(f"[nvd]   {nvd_status} ({len(nvd)} items)")
     except Exception as exc:
         print(f"[nvd] failed: {exc}", file=sys.stderr)
     try:
-        kev = fetch_kev()
-        print(f"[kev]   ok ({kev['total']} total)")
+        kev_ids = set(kev["kev_ids"]) if kev else set()
+        index = fetch_nvd_backfill(kev_ids)
+        print(f"[backfill] search index: {len(index)} CVEs")
     except Exception as exc:
-        print(f"[kev] failed: {exc}", file=sys.stderr)
+        print(f"[backfill] failed: {exc}", file=sys.stderr)
     try:
         osv_items, osv_status = fetch_osv()
         print(f"[osv]   {osv_status} ({len(osv_items)} items)")
@@ -494,6 +561,12 @@ def main():
             "arxiv_papers": len(papers),
             "hn_stories": len(hn),
         },
+        "top_cves": [
+            {"id": c["id"], "url": c["url"], "score": c.get("score"),
+             "severity": c.get("severity"), "summary": c["summary"][:160]}
+            for c in nvd[:5]
+        ],
+        "kev_ids": kev["kev_ids"] if kev else [],
         "status": {
             "nvd": nvd_status, "kev": "ok" if kev else "failed",
             "osv": osv_status, "arxiv": paper_status, "hn": hn_status,
@@ -501,6 +574,20 @@ def main():
     }
     (DATA_DIR / "latest.json").write_text(
         json.dumps(snapshot, indent=2), encoding="utf-8")
+
+    # rolling daily history for the dashboard trend line
+    hist_path = DATA_DIR / "history.json"
+    try:
+        hist = json.loads(hist_path.read_text(encoding="utf-8")) \
+            if hist_path.exists() else {}
+    except (json.JSONDecodeError, OSError):
+        hist = {}
+    hist[date_str] = snapshot["counts"]
+    if len(hist) > 400:
+        for k in sorted(hist)[:-400]:
+            hist.pop(k)
+    hist_path.write_text(json.dumps(hist, separators=(",", ":")),
+                         encoding="utf-8")
 
     print(f"[done] wrote {out.relative_to(ROOT)}")
     print(json.dumps(snapshot["counts"], indent=2))
