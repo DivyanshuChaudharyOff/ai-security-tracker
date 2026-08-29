@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28T15:34:18.530365+00:00",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T10:18:58.719127+00:00",
   "counts": {
     "nvd_cves": 6,
     "kev_total": 1685,
@@ -26,11 +26,11 @@
       "summary": "Improper neutralization of input used for LLM prompting in the python_repl tool in Amazon Strands Agents Tools before 0.8.5 might allow remote actors to execute"
     },
     {
-      "id": "CVE-2026-54457",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54457",
-      "score": 7.7,
-      "severity": "HIGH",
-      "summary": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation. Prior to 2026.6.0, the T"
+      "id": "CVE-2026-70331",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70331",
+      "score": 5.4,
+      "severity": "MEDIUM",
+      "summary": "Improper neutralization of input used for llm prompting in Microsoft Edge for iOS allows an unauthorized attacker to perform spoofing over a network."
     },
     {
       "id": "CVE-2026-55580",
