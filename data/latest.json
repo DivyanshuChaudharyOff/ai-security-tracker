@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31T09:59:47.077128+00:00",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T08:50:39.640377+00:00",
   "counts": {
-    "nvd_cves": 7,
-    "kev_total": 1685,
+    "nvd_cves": 8,
+    "kev_total": 1687,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -26,6 +26,13 @@
       "summary": "Improper neutralization of input used for LLM prompting in the python_repl tool in Amazon Strands Agents Tools before 0.8.5 might allow remote actors to execute"
     },
     {
+      "id": "CVE-2026-79745",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79745",
+      "score": 7.1,
+      "severity": "HIGH",
+      "summary": "MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies."
+    },
+    {
       "id": "CVE-2026-82640",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82640",
       "score": 5.5,
@@ -38,13 +45,6 @@
       "score": 5.4,
       "severity": "MEDIUM",
       "summary": "Improper neutralization of input used for llm prompting in Microsoft Edge for iOS allows an unauthorized attacker to perform spoofing over a network."
-    },
-    {
-      "id": "CVE-2026-55580",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55580",
-      "score": null,
-      "severity": null,
-      "summary": "mcp-shell is an MCP server for running shell commands securely, auditably, and on demand. Prior to 0.6.0, config.go initializes Security.Enabled to false, and w"
     }
   ],
   "kev_ids": [
@@ -1729,6 +1729,8 @@
     "CVE-2026-73570",
     "CVE-2026-7473",
     "CVE-2026-8037",
+    "CVE-2026-81578",
+    "CVE-2026-82078",
     "CVE-2026-8398",
     "CVE-2026-8452",
     "CVE-2026-9082",
