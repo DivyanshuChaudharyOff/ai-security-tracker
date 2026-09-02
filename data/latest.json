@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01T08:50:39.640377+00:00",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T08:03:35.554263+00:00",
   "counts": {
-    "nvd_cves": 8,
+    "nvd_cves": 5,
     "kev_total": 1687,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -12,18 +12,11 @@
   },
   "top_cves": [
     {
-      "id": "CVE-2026-55585",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55585",
-      "score": 8.8,
-      "severity": "HIGH",
-      "summary": "QWED is open-source AI verification infrastructure for deterministic verification of LLM outputs, tool calls, code, schemas, and agent state before production e"
-    },
-    {
-      "id": "CVE-2026-78379",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78379",
-      "score": 8.1,
-      "severity": "HIGH",
-      "summary": "Improper neutralization of input used for LLM prompting in the python_repl tool in Amazon Strands Agents Tools before 0.8.5 might allow remote actors to execute"
+      "id": "CVE-2026-37003",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37003",
+      "score": 9.8,
+      "severity": "CRITICAL",
+      "summary": "Agno up to and including 2.5.8 is vulnerable to Remote Code Execution (RCE) via prompt injection. The PythonTools and ShellTools components pass unsanitized, LL"
     },
     {
       "id": "CVE-2026-79745",
@@ -45,6 +38,13 @@
       "score": 5.4,
       "severity": "MEDIUM",
       "summary": "Improper neutralization of input used for llm prompting in Microsoft Edge for iOS allows an unauthorized attacker to perform spoofing over a network."
+    },
+    {
+      "id": "CVE-2026-68929",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68929",
+      "score": null,
+      "severity": null,
+      "summary": "FastGPT is an open-source LLM platform for building AI applications on a knowledge base. In versions prior to 4.15.2, the WeChat (iLink) share-channel endpoints"
     }
   ],
   "kev_ids": [
