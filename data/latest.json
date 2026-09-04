@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-03",
-  "generated_at": "2026-09-03T08:13:20.015567+00:00",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T08:08:33.737292+00:00",
   "counts": {
-    "nvd_cves": 7,
+    "nvd_cves": 6,
     "kev_total": 1694,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -12,18 +12,18 @@
   },
   "top_cves": [
     {
-      "id": "CVE-2026-37003",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37003",
-      "score": 9.8,
-      "severity": "CRITICAL",
-      "summary": "Agno up to and including 2.5.8 is vulnerable to Remote Code Execution (RCE) via prompt injection. The PythonTools and ShellTools components pass unsanitized, LL"
-    },
-    {
       "id": "CVE-2026-82404",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82404",
       "score": 8.3,
       "severity": "HIGH",
       "summary": "TOON is a compact, human-readable serialization of JSON data for LLM prompts. Prior to 2.3.1, decoding attacker-controlled TOON with a __proto__, constructor, o"
+    },
+    {
+      "id": "CVE-2026-84779",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84779",
+      "score": 8.1,
+      "severity": "HIGH",
+      "summary": "Subscriber Broken Access Control in Agentimus \u2013 AI SEO, llms.txt &amp; MCP for AI Agents <= 1.51.0 versions."
     },
     {
       "id": "CVE-2026-79745",
