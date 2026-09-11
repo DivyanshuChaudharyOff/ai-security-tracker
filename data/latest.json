@@ -1,23 +1,16 @@
 {
-  "date": "2026-09-10",
-  "generated_at": "2026-09-10T08:18:24.661123+00:00",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T08:13:37.249761+00:00",
   "counts": {
     "nvd_cves": 6,
-    "kev_total": 1703,
+    "kev_total": 1705,
     "kev_recent": 8,
     "kev_ai_matches": 0,
-    "osv_advisories": 0,
+    "osv_advisories": 1,
     "arxiv_papers": 10,
     "hn_stories": 10
   },
   "top_cves": [
-    {
-      "id": "CVE-2026-84779",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84779",
-      "score": 8.1,
-      "severity": "HIGH",
-      "summary": "Subscriber Broken Access Control in Agentimus \u2013 AI SEO, llms.txt &amp; MCP for AI Agents <= 1.51.0 versions."
-    },
     {
       "id": "CVE-2026-85694",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85694",
@@ -45,6 +38,13 @@
       "score": 6.5,
       "severity": "MEDIUM",
       "summary": "llmware 0.4.6 contains an SQL injection vulnerability in the collection-database layer (llmware/resources.py) where filter and lookup values are directly string"
+    },
+    {
+      "id": "CVE-2026-19645",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19645",
+      "score": 6.5,
+      "severity": "MEDIUM",
+      "summary": "IBM MQ Agent CD: v1.0.0, v1.0.1, v2.0.0, v2.0.1 An authenticated user with a valid session cookie can submit arbitrarily large or computationallyexpensive reque"
     }
   ],
   "kev_ids": [
@@ -1727,6 +1727,7 @@
     "CVE-2026-64849",
     "CVE-2026-65400",
     "CVE-2026-66384",
+    "CVE-2026-67277",
     "CVE-2026-68820",
     "CVE-2026-6973",
     "CVE-2026-72529",
@@ -1746,6 +1747,7 @@
     "CVE-2026-8452",
     "CVE-2026-85046",
     "CVE-2026-85880",
+    "CVE-2026-86060",
     "CVE-2026-86218",
     "CVE-2026-87491",
     "CVE-2026-9082",
@@ -1755,7 +1757,7 @@
   "status": {
     "nvd": "ok",
     "kev": "ok",
-    "osv": "no new advisories in window",
+    "osv": "ok",
     "arxiv": "ok",
     "hn": "ok"
   }
