@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-11",
-  "generated_at": "2026-09-11T08:13:37.249761+00:00",
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T08:03:58.531513+00:00",
   "counts": {
-    "nvd_cves": 6,
-    "kev_total": 1705,
+    "nvd_cves": 2,
+    "kev_total": 1709,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 1,
@@ -12,39 +12,18 @@
   },
   "top_cves": [
     {
-      "id": "CVE-2026-85694",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85694",
-      "score": 8.1,
+      "id": "CVE-2026-71416",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71416",
+      "score": 8.8,
       "severity": "HIGH",
-      "summary": "LaVague 0.2.35 contains a remote code execution vulnerability in PythonFromMarkdownExtractor.extract_as_object that evaluates untrusted language model output de"
+      "summary": "Headroom compresses data before the data reaches a large language model. Prior to version 0.35.0, the Headroom WebSocket server does not validate the `Origin` h"
     },
     {
-      "id": "CVE-2026-85674",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85674",
-      "score": 7.8,
-      "severity": "HIGH",
-      "summary": "aider (aider-chat) automatically loads a .aider.conf.yml configuration file from the root of the git repository it is launched in. A crafted repository can set "
-    },
-    {
-      "id": "CVE-2026-19306",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19306",
-      "score": 7.7,
-      "severity": "HIGH",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.11.2 allows an authenticated attacker to read arbitrary files from the server filesystem \u2014 including server secret material (se"
-    },
-    {
-      "id": "CVE-2026-85689",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85689",
-      "score": 6.5,
+      "id": "CVE-2026-88055",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88055",
+      "score": 5.5,
       "severity": "MEDIUM",
-      "summary": "llmware 0.4.6 contains an SQL injection vulnerability in the collection-database layer (llmware/resources.py) where filter and lookup values are directly string"
-    },
-    {
-      "id": "CVE-2026-19645",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19645",
-      "score": 6.5,
-      "severity": "MEDIUM",
-      "summary": "IBM MQ Agent CD: v1.0.0, v1.0.1, v2.0.0, v2.0.1 An authenticated user with a valid session cookie can submit arbitrarily large or computationallyexpensive reque"
+      "summary": "AnythingLLM is an application that turns pieces of content into context that any LLM can use as references during chatting. In 1.16.1 and earlier, the manager r"
     }
   ],
   "kev_ids": [
@@ -1689,6 +1668,8 @@
     "CVE-2026-39987",
     "CVE-2026-41091",
     "CVE-2026-41940",
+    "CVE-2026-42016",
+    "CVE-2026-42018",
     "CVE-2026-42208",
     "CVE-2026-42271",
     "CVE-2026-42897",
@@ -1745,7 +1726,9 @@
     "CVE-2026-83549",
     "CVE-2026-8398",
     "CVE-2026-8452",
+    "CVE-2026-84869",
     "CVE-2026-85046",
+    "CVE-2026-85706",
     "CVE-2026-85880",
     "CVE-2026-86060",
     "CVE-2026-86218",
