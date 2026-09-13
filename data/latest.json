@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-12",
-  "generated_at": "2026-09-12T08:03:58.531513+00:00",
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T08:29:27.591889+00:00",
   "counts": {
-    "nvd_cves": 2,
+    "nvd_cves": 3,
     "kev_total": 1709,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 1,
-    "arxiv_papers": 10,
+    "arxiv_papers": 0,
     "hn_stories": 10
   },
   "top_cves": [
@@ -24,6 +24,13 @@
       "score": 5.5,
       "severity": "MEDIUM",
       "summary": "AnythingLLM is an application that turns pieces of content into context that any LLM can use as references during chatting. In 1.16.1 and earlier, the manager r"
+    },
+    {
+      "id": "CVE-2026-90534",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90534",
+      "score": null,
+      "severity": null,
+      "summary": "Flowise is a low-code platform for building LLM applications. In versions up to and including 3.1.3, the POST /api/v1/node-load-method/:name endpoint is mounted"
     }
   ],
   "kev_ids": [
@@ -1741,7 +1748,7 @@
     "nvd": "ok",
     "kev": "ok",
     "osv": "ok",
-    "arxiv": "ok",
+    "arxiv": "failed",
     "hn": "ok"
   }
 }
