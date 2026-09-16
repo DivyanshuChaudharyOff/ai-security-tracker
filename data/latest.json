@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15T08:53:02.160090+00:00",
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T08:46:53.373295+00:00",
   "counts": {
-    "nvd_cves": 8,
+    "nvd_cves": 11,
     "kev_total": 1710,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 1,
-    "arxiv_papers": 0,
+    "arxiv_papers": 10,
     "hn_stories": 10
   },
   "top_cves": [
@@ -40,11 +40,11 @@
       "summary": "LangBot's plugin runtime (pip package langbot_plugin) through 0.4.17 starts a debug WebSocket server on 0.0.0.0:5401 (/plugin/ws) whose authentication is gated "
     },
     {
-      "id": "CVE-2026-57130",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57130",
-      "score": 8.1,
+      "id": "CVE-2026-91935",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91935",
+      "score": 8.3,
       "severity": "HIGH",
-      "summary": "PraisonAI is a multi-agent teams system. Prior to praisonaiagents 1.6.59, src/praisonai-agents/praisonaiagents/tools/email_tools.py interpolates LLM-controlled "
+      "summary": "Flowise before 3.1.4 fails to validate baseURL parameters in chat-model nodes, allowing authenticated users to redirect requests to arbitrary hosts. Attackers w"
     }
   ],
   "kev_ids": [
@@ -1763,7 +1763,7 @@
     "nvd": "ok",
     "kev": "ok",
     "osv": "ok",
-    "arxiv": "failed",
+    "arxiv": "ok",
     "hn": "ok"
   }
 }
