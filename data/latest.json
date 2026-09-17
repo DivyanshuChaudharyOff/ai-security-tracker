@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-16",
-  "generated_at": "2026-09-16T08:46:53.373295+00:00",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T08:50:07.832464+00:00",
   "counts": {
-    "nvd_cves": 11,
-    "kev_total": 1710,
+    "nvd_cves": 12,
+    "kev_total": 1713,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 1,
@@ -17,6 +17,13 @@
       "score": 9.8,
       "severity": "CRITICAL",
       "summary": "PraisonAI is a multi-agent teams system. Prior to praisonai 4.6.59 and praisonaiagents 1.6.59, the unauthenticated POST /api/v1/runs Jobs API accepts attacker-c"
+    },
+    {
+      "id": "CVE-2025-59953",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59953",
+      "score": 9.8,
+      "severity": "CRITICAL",
+      "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Starting in version 0.9.1 and prior to version 0.10.2, the LMdeploy impleme"
     },
     {
       "id": "CVE-2026-57145",
@@ -38,13 +45,6 @@
       "score": 8.6,
       "severity": "HIGH",
       "summary": "LangBot's plugin runtime (pip package langbot_plugin) through 0.4.17 starts a debug WebSocket server on 0.0.0.0:5401 (/plugin/ws) whose authentication is gated "
-    },
-    {
-      "id": "CVE-2026-91935",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91935",
-      "score": 8.3,
-      "severity": "HIGH",
-      "summary": "Flowise before 3.1.4 fails to validate baseURL parameters in chat-model nodes, allowing authenticated users to redirect requests to arbitrary hosts. Attackers w"
     }
   ],
   "kev_ids": [
@@ -1720,6 +1720,7 @@
     "CVE-2026-56290",
     "CVE-2026-56291",
     "CVE-2026-58644",
+    "CVE-2026-58704",
     "CVE-2026-59310",
     "CVE-2026-59822",
     "CVE-2026-60004",
@@ -1738,6 +1739,7 @@
     "CVE-2026-73570",
     "CVE-2026-7473",
     "CVE-2026-75650",
+    "CVE-2026-76460",
     "CVE-2026-76461",
     "CVE-2026-8037",
     "CVE-2026-81578",
@@ -1755,6 +1757,7 @@
     "CVE-2026-86060",
     "CVE-2026-86218",
     "CVE-2026-87491",
+    "CVE-2026-87886",
     "CVE-2026-9082",
     "CVE-2026-9198",
     "CVE-2026-9586"
