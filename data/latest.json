@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-17",
-  "generated_at": "2026-09-17T08:50:07.832464+00:00",
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:25:33.580377+00:00",
   "counts": {
     "nvd_cves": 12,
     "kev_total": 1713,
     "kev_recent": 8,
     "kev_ai_matches": 0,
-    "osv_advisories": 1,
+    "osv_advisories": 0,
     "arxiv_papers": 10,
     "hn_stories": 10
   },
@@ -1765,7 +1765,7 @@
   "status": {
     "nvd": "ok",
     "kev": "ok",
-    "osv": "ok",
+    "osv": "no new advisories in window",
     "arxiv": "ok",
     "hn": "ok"
   }
