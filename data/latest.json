@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-21",
-  "generated_at": "2026-09-21T09:12:34.910184+00:00",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T08:43:49.569247+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1716,
+    "kev_total": 1717,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -11,13 +11,6 @@
     "hn_stories": 10
   },
   "top_cves": [
-    {
-      "id": "CVE-2026-57125",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57125",
-      "score": 9.8,
-      "severity": "CRITICAL",
-      "summary": "PraisonAI is a multi-agent teams system. Prior to praisonai 4.6.59 and praisonaiagents 1.6.59, the unauthenticated POST /api/v1/runs Jobs API accepts attacker-c"
-    },
     {
       "id": "CVE-2025-59953",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59953",
@@ -33,18 +26,25 @@
       "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Starting in version 0.9.2 and prior to version 0.16.0, LMDeploy's PyTorch D"
     },
     {
-      "id": "CVE-2026-57145",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57145",
-      "score": 9.1,
-      "severity": "CRITICAL",
-      "summary": "PraisonAI is a multi-agent teams system. Prior to 4.6.62, src/praisonai/praisonai/tools/multiedit.py passes the LLM-controlled filepath parameter directly to op"
-    },
-    {
       "id": "CVE-2026-33625",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33625",
       "score": 8.8,
       "severity": "HIGH",
       "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Versions 012.1 through 0.12.2 contain a code injection vulnerability in `lm"
+    },
+    {
+      "id": "CVE-2026-91935",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91935",
+      "score": 8.3,
+      "severity": "HIGH",
+      "summary": "Flowise before 3.1.4 fails to validate baseURL parameters in chat-model nodes, allowing authenticated users to redirect requests to arbitrary hosts. Attackers w"
+    },
+    {
+      "id": "CVE-2026-59974",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59974",
+      "score": 7.8,
+      "severity": "HIGH",
+      "summary": "Stanza is a Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages. Prior to 1.14.0, stanza.resources.com"
     }
   ],
   "kev_ids": [
@@ -1738,6 +1738,7 @@
     "CVE-2026-6973",
     "CVE-2026-72529",
     "CVE-2026-72530",
+    "CVE-2026-7273",
     "CVE-2026-72898",
     "CVE-2026-73570",
     "CVE-2026-7473",
