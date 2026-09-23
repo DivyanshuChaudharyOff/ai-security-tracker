@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-22",
-  "generated_at": "2026-09-22T08:43:49.569247+00:00",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T08:45:55.786684+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1717,
+    "kev_total": 1721,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -33,18 +33,18 @@
       "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Versions 012.1 through 0.12.2 contain a code injection vulnerability in `lm"
     },
     {
-      "id": "CVE-2026-91935",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91935",
-      "score": 8.3,
-      "severity": "HIGH",
-      "summary": "Flowise before 3.1.4 fails to validate baseURL parameters in chat-model nodes, allowing authenticated users to redirect requests to arbitrary hosts. Attackers w"
-    },
-    {
       "id": "CVE-2026-59974",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59974",
       "score": 7.8,
       "severity": "HIGH",
       "summary": "Stanza is a Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages. Prior to 1.14.0, stanza.resources.com"
+    },
+    {
+      "id": "CVE-2026-56681",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56681",
+      "score": 7.3,
+      "severity": "HIGH",
+      "summary": "9Router is an AI router & token saver. Prior to 0.5.6, 9Router deployments that allow requests to reach Next.js without the sanitizing custom-server.js wrapper "
     }
   ],
   "kev_ids": [
@@ -1756,6 +1756,7 @@
     "CVE-2026-8452",
     "CVE-2026-84869",
     "CVE-2026-85046",
+    "CVE-2026-85102",
     "CVE-2026-85706",
     "CVE-2026-85880",
     "CVE-2026-86060",
@@ -1764,6 +1765,9 @@
     "CVE-2026-87886",
     "CVE-2026-9082",
     "CVE-2026-9198",
+    "CVE-2026-93616",
+    "CVE-2026-93952",
+    "CVE-2026-94127",
     "CVE-2026-9586"
   ],
   "status": {

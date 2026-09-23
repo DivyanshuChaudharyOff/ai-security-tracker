@@ -28,7 +28,7 @@ A GitHub Action (`daily-digest`) runs at **03:30 UTC daily** (~9:00 AM IST):
 No API keys required — all sources are free public feeds.
 
 <!-- REPORTS:START -->
-- [`2026-09-22`](reports/2026-09-22.md)
+- [`2026-09-23`](reports/2026-09-23.md)
 <!-- REPORTS:END -->
 
 ## Running locally
