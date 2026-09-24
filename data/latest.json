@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-23",
-  "generated_at": "2026-09-23T08:45:55.786684+00:00",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T08:39:08.135147+00:00",
   "counts": {
-    "nvd_cves": 12,
+    "nvd_cves": 9,
     "kev_total": 1721,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -11,13 +11,6 @@
     "hn_stories": 10
   },
   "top_cves": [
-    {
-      "id": "CVE-2025-59953",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59953",
-      "score": 9.8,
-      "severity": "CRITICAL",
-      "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Starting in version 0.9.1 and prior to version 0.10.2, the LMdeploy impleme"
-    },
     {
       "id": "CVE-2025-66455",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66455",
@@ -33,18 +26,25 @@
       "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Versions 012.1 through 0.12.2 contain a code injection vulnerability in `lm"
     },
     {
-      "id": "CVE-2026-59974",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59974",
-      "score": 7.8,
-      "severity": "HIGH",
-      "summary": "Stanza is a Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages. Prior to 1.14.0, stanza.resources.com"
-    },
-    {
       "id": "CVE-2026-56681",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56681",
       "score": 7.3,
       "severity": "HIGH",
       "summary": "9Router is an AI router & token saver. Prior to 0.5.6, 9Router deployments that allow requests to reach Next.js without the sanitizing custom-server.js wrapper "
+    },
+    {
+      "id": "CVE-2026-84301",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84301",
+      "score": 6.3,
+      "severity": "MEDIUM",
+      "summary": "FastGPT is an open-source LLM platform for building AI applications on a knowledge base. Prior to 4.15.2, the safe Axios request interceptor in packages/service"
+    },
+    {
+      "id": "CVE-2026-61647",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61647",
+      "score": null,
+      "severity": null,
+      "summary": "NotebookLM MCP is an MCP server and HTTP service for interacting with Google NotebookLM and exporting generated content to local vault directories. Versions 1.6"
     }
   ],
   "kev_ids": [
