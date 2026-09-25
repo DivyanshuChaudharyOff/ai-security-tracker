@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-24",
-  "generated_at": "2026-09-24T08:39:08.135147+00:00",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T09:00:44.393924+00:00",
   "counts": {
-    "nvd_cves": 9,
-    "kev_total": 1721,
+    "nvd_cves": 7,
+    "kev_total": 1723,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -11,6 +11,13 @@
     "hn_stories": 10
   },
   "top_cves": [
+    {
+      "id": "CVE-2026-61732",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61732",
+      "score": 10.0,
+      "severity": "CRITICAL",
+      "summary": "Decepticon is an autonomous hacking agent for red teams. Versions prior to 1.1.17 wrap web crawl results \u2014 the output of agent reconnaissance against target ser"
+    },
     {
       "id": "CVE-2025-66455",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66455",
@@ -26,25 +33,18 @@
       "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. Versions 012.1 through 0.12.2 contain a code injection vulnerability in `lm"
     },
     {
+      "id": "CVE-2026-77294",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77294",
+      "score": 8.1,
+      "severity": "HIGH",
+      "summary": "TREK is a collaborative travel planner. Prior to 3.3.0, TREK allows an authenticated user to store an attacker-controlled llm_base_url through the settings API "
+    },
+    {
       "id": "CVE-2026-56681",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56681",
       "score": 7.3,
       "severity": "HIGH",
       "summary": "9Router is an AI router & token saver. Prior to 0.5.6, 9Router deployments that allow requests to reach Next.js without the sanitizing custom-server.js wrapper "
-    },
-    {
-      "id": "CVE-2026-84301",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84301",
-      "score": 6.3,
-      "severity": "MEDIUM",
-      "summary": "FastGPT is an open-source LLM platform for building AI applications on a knowledge base. Prior to 4.15.2, the safe Axios request interceptor in packages/service"
-    },
-    {
-      "id": "CVE-2026-61647",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61647",
-      "score": null,
-      "severity": null,
-      "summary": "NotebookLM MCP is an MCP server and HTTP service for interacting with Google NotebookLM and exporting generated content to local vault directories. Versions 1.6"
     }
   ],
   "kev_ids": [
@@ -1715,6 +1715,7 @@
     "CVE-2026-5281",
     "CVE-2026-53266",
     "CVE-2026-53362",
+    "CVE-2026-5430",
     "CVE-2026-54420",
     "CVE-2026-55040",
     "CVE-2026-55255",
@@ -1736,6 +1737,7 @@
     "CVE-2026-67277",
     "CVE-2026-68820",
     "CVE-2026-6973",
+    "CVE-2026-71362",
     "CVE-2026-72529",
     "CVE-2026-72530",
     "CVE-2026-7273",
