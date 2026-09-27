@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-26",
-  "generated_at": "2026-09-26T08:46:21.820633+00:00",
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T09:27:21.485427+00:00",
   "counts": {
-    "nvd_cves": 5,
+    "nvd_cves": 7,
     "kev_total": 1726,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -33,18 +33,18 @@
       "summary": "9Router is an AI router & token saver. Prior to 0.5.6, 9Router deployments that allow requests to reach Next.js without the sanitizing custom-server.js wrapper "
     },
     {
+      "id": "CVE-2026-100653",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100653",
+      "score": 6.5,
+      "severity": "MEDIUM",
+      "summary": "vLLM is an inference and serving engine for large language models. In versions from 0.22.1 through 0.28.0, the operator-supplied model revision pin (--revision "
+    },
+    {
       "id": "CVE-2026-84301",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84301",
       "score": 6.3,
       "severity": "MEDIUM",
       "summary": "FastGPT is an open-source LLM platform for building AI applications on a knowledge base. Prior to 4.15.2, the safe Axios request interceptor in packages/service"
-    },
-    {
-      "id": "CVE-2026-61647",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61647",
-      "score": null,
-      "severity": null,
-      "summary": "NotebookLM MCP is an MCP server and HTTP service for interacting with Google NotebookLM and exporting generated content to local vault directories. Versions 1.6"
     }
   ],
   "kev_ids": [
