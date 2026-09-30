@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-29",
-  "generated_at": "2026-09-29T10:02:34.870634+00:00",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T09:55:34.269951+00:00",
   "counts": {
-    "nvd_cves": 6,
-    "kev_total": 1728,
+    "nvd_cves": 4,
+    "kev_total": 1729,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -26,13 +26,6 @@
       "summary": "TREK is a collaborative travel planner. Prior to 3.3.0, TREK allows an authenticated user to store an attacker-controlled llm_base_url through the settings API "
     },
     {
-      "id": "CVE-2026-56681",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56681",
-      "score": 7.3,
-      "severity": "HIGH",
-      "summary": "9Router is an AI router & token saver. Prior to 0.5.6, 9Router deployments that allow requests to reach Next.js without the sanitizing custom-server.js wrapper "
-    },
-    {
       "id": "CVE-2026-100653",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100653",
       "score": 6.5,
@@ -40,11 +33,11 @@
       "summary": "vLLM is an inference and serving engine for large language models. In versions from 0.22.1 through 0.28.0, the operator-supplied model revision pin (--revision "
     },
     {
-      "id": "CVE-2026-84301",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84301",
-      "score": 6.3,
+      "id": "CVE-2026-100863",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100863",
+      "score": 5.0,
       "severity": "MEDIUM",
-      "summary": "FastGPT is an open-source LLM platform for building AI applications on a knowledge base. Prior to 4.15.2, the safe Axios request interceptor in packages/service"
+      "summary": "Heym versions 0.0.90 and earlier contain two server-side request forgery (SSRF) egress gaps, both remediated in app/services/ssrf_guard.py in 0.0.91. First, the"
     }
   ],
   "kev_ids": [
@@ -1765,6 +1758,7 @@
     "CVE-2026-85880",
     "CVE-2026-86060",
     "CVE-2026-86218",
+    "CVE-2026-86950",
     "CVE-2026-87491",
     "CVE-2026-87886",
     "CVE-2026-87902",
