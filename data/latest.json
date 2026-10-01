@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-30",
-  "generated_at": "2026-09-30T09:55:34.269951+00:00",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T10:22:14.212067+00:00",
   "counts": {
-    "nvd_cves": 4,
-    "kev_total": 1729,
+    "nvd_cves": 5,
+    "kev_total": 1730,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -38,6 +38,13 @@
       "score": 5.0,
       "severity": "MEDIUM",
       "summary": "Heym versions 0.0.90 and earlier contain two server-side request forgery (SSRF) egress gaps, both remediated in app/services/ssrf_guard.py in 0.0.91. First, the"
+    },
+    {
+      "id": "CVE-2026-51871",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51871",
+      "score": null,
+      "severity": null,
+      "summary": "Devika v1.0 is vulnerable to Code Injection in the Runner.execute function in src/agents/runner/runner.py which allows an attacker to achieve arbitrary code exe"
     }
   ],
   "kev_ids": [
@@ -1742,6 +1749,7 @@
     "CVE-2026-75650",
     "CVE-2026-76460",
     "CVE-2026-76461",
+    "CVE-2026-76504",
     "CVE-2026-8037",
     "CVE-2026-81578",
     "CVE-2026-81963",
