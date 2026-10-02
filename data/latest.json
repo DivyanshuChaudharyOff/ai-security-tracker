@@ -1,29 +1,22 @@
 {
-  "date": "2026-10-01",
-  "generated_at": "2026-10-01T10:22:14.212067+00:00",
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T09:59:13.667831+00:00",
   "counts": {
-    "nvd_cves": 5,
-    "kev_total": 1730,
+    "nvd_cves": 3,
+    "kev_total": 1731,
     "kev_recent": 8,
     "kev_ai_matches": 0,
-    "osv_advisories": 0,
-    "arxiv_papers": 10,
+    "osv_advisories": 1,
+    "arxiv_papers": 0,
     "hn_stories": 10
   },
   "top_cves": [
     {
-      "id": "CVE-2026-61732",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61732",
-      "score": 10.0,
+      "id": "CVE-2026-51871",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51871",
+      "score": 9.8,
       "severity": "CRITICAL",
-      "summary": "Decepticon is an autonomous hacking agent for red teams. Versions prior to 1.1.17 wrap web crawl results \u2014 the output of agent reconnaissance against target ser"
-    },
-    {
-      "id": "CVE-2026-77294",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77294",
-      "score": 8.1,
-      "severity": "HIGH",
-      "summary": "TREK is a collaborative travel planner. Prior to 3.3.0, TREK allows an authenticated user to store an attacker-controlled llm_base_url through the settings API "
+      "summary": "Devika v1.0 is vulnerable to Code Injection in the Runner.execute function in src/agents/runner/runner.py which allows an attacker to achieve arbitrary code exe"
     },
     {
       "id": "CVE-2026-100653",
@@ -38,13 +31,6 @@
       "score": 5.0,
       "severity": "MEDIUM",
       "summary": "Heym versions 0.0.90 and earlier contain two server-side request forgery (SSRF) egress gaps, both remediated in app/services/ssrf_guard.py in 0.0.91. First, the"
-    },
-    {
-      "id": "CVE-2026-51871",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51871",
-      "score": null,
-      "severity": null,
-      "summary": "Devika v1.0 is vulnerable to Code Injection in the Runner.execute function in src/agents/runner/runner.py which allows an attacker to achieve arbitrary code exe"
     }
   ],
   "kev_ids": [
@@ -1616,6 +1602,7 @@
     "CVE-2026-0257",
     "CVE-2026-0300",
     "CVE-2026-0770",
+    "CVE-2026-104286",
     "CVE-2026-10520",
     "CVE-2026-11645",
     "CVE-2026-12569",
@@ -1782,8 +1769,8 @@
   "status": {
     "nvd": "ok",
     "kev": "ok",
-    "osv": "no new advisories in window",
-    "arxiv": "ok",
+    "osv": "ok",
+    "arxiv": "failed",
     "hn": "ok"
   }
 }
