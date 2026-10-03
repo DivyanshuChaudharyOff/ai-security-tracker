@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-02",
-  "generated_at": "2026-10-02T09:59:13.667831+00:00",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T09:21:36.454714+00:00",
   "counts": {
-    "nvd_cves": 3,
-    "kev_total": 1731,
+    "nvd_cves": 4,
+    "kev_total": 1733,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 1,
-    "arxiv_papers": 0,
+    "arxiv_papers": 10,
     "hn_stories": 10
   },
   "top_cves": [
@@ -31,6 +31,13 @@
       "score": 5.0,
       "severity": "MEDIUM",
       "summary": "Heym versions 0.0.90 and earlier contain two server-side request forgery (SSRF) egress gaps, both remediated in app/services/ssrf_guard.py in 0.0.91. First, the"
+    },
+    {
+      "id": "CVE-2026-91108",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91108",
+      "score": 4.3,
+      "severity": "MEDIUM",
+      "summary": "The Alt Text AI \u2013 Automatically generate image alt text for SEO and accessibility plugin for WordPress is vulnerable to authorization bypass in all versions up "
     }
   ],
   "kev_ids": [
@@ -1602,6 +1609,8 @@
     "CVE-2026-0257",
     "CVE-2026-0300",
     "CVE-2026-0770",
+    "CVE-2026-102489",
+    "CVE-2026-102490",
     "CVE-2026-104286",
     "CVE-2026-10520",
     "CVE-2026-11645",
@@ -1770,7 +1779,7 @@
     "nvd": "ok",
     "kev": "ok",
     "osv": "ok",
-    "arxiv": "failed",
+    "arxiv": "ok",
     "hn": "ok"
   }
 }
