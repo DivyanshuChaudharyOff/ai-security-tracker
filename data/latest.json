@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-03",
-  "generated_at": "2026-10-03T09:21:36.454714+00:00",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T10:00:07.635890+00:00",
   "counts": {
-    "nvd_cves": 4,
+    "nvd_cves": 2,
     "kev_total": 1733,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -17,20 +17,6 @@
       "score": 9.8,
       "severity": "CRITICAL",
       "summary": "Devika v1.0 is vulnerable to Code Injection in the Runner.execute function in src/agents/runner/runner.py which allows an attacker to achieve arbitrary code exe"
-    },
-    {
-      "id": "CVE-2026-100653",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100653",
-      "score": 6.5,
-      "severity": "MEDIUM",
-      "summary": "vLLM is an inference and serving engine for large language models. In versions from 0.22.1 through 0.28.0, the operator-supplied model revision pin (--revision "
-    },
-    {
-      "id": "CVE-2026-100863",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100863",
-      "score": 5.0,
-      "severity": "MEDIUM",
-      "summary": "Heym versions 0.0.90 and earlier contain two server-side request forgery (SSRF) egress gaps, both remediated in app/services/ssrf_guard.py in 0.0.91. First, the"
     },
     {
       "id": "CVE-2026-91108",
