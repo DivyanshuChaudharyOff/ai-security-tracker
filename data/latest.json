@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "generated_at": "2026-10-07T10:29:25.396847+00:00",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T10:50:03.828919+00:00",
   "counts": {
     "nvd_cves": 12,
     "kev_total": 1734,
@@ -11,13 +11,6 @@
     "hn_stories": 10
   },
   "top_cves": [
-    {
-      "id": "CVE-2026-51871",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51871",
-      "score": 9.8,
-      "severity": "CRITICAL",
-      "summary": "Devika v1.0 is vulnerable to Code Injection in the Runner.execute function in src/agents/runner/runner.py which allows an attacker to achieve arbitrary code exe"
-    },
     {
       "id": "CVE-2026-105762",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105762",
@@ -45,6 +38,13 @@
       "score": 6.5,
       "severity": "MEDIUM",
       "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.30.0, the /inference/v1/generate endpoint in the disaggregated scale-out path acce"
+    },
+    {
+      "id": "CVE-2026-105756",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105756",
+      "score": 6.5,
+      "severity": "MEDIUM",
+      "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.30.0, OpenAI-compatible request models accept a non-empty cache_salt value without"
     }
   ],
   "kev_ids": [
