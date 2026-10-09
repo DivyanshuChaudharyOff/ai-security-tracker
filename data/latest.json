@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-08",
-  "generated_at": "2026-10-08T10:50:03.828919+00:00",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T10:49:07.980892+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1734,
+    "kev_total": 1739,
     "kev_recent": 8,
     "kev_ai_matches": 0,
-    "osv_advisories": 1,
+    "osv_advisories": 0,
     "arxiv_papers": 10,
     "hn_stories": 10
   },
@@ -26,6 +26,13 @@
       "summary": "Dify is an open-source LLM app development platform. Prior to 1.16.0, the PUT /console/api/apps/&lt;app_id&gt;/server endpoint in api/controllers/console/app/mc"
     },
     {
+      "id": "CVE-2026-107717",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107717",
+      "score": 6.5,
+      "severity": "MEDIUM",
+      "summary": "Banks generates meaningful LLM prompts using a simple template language. Prior to 2.5.0, Banks Prompt.chat_messages() attempts to parse every line of rendered t"
+    },
+    {
       "id": "CVE-2026-105753",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105753",
       "score": 6.5,
@@ -38,13 +45,6 @@
       "score": 6.5,
       "severity": "MEDIUM",
       "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.30.0, the /inference/v1/generate endpoint in the disaggregated scale-out path acce"
-    },
-    {
-      "id": "CVE-2026-105756",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105756",
-      "score": 6.5,
-      "severity": "MEDIUM",
-      "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.30.0, OpenAI-compatible request models accept a non-empty cache_salt value without"
     }
   ],
   "kev_ids": [
@@ -236,6 +236,7 @@
     "CVE-2015-3043",
     "CVE-2015-3113",
     "CVE-2015-3246",
+    "CVE-2015-3306",
     "CVE-2015-4068",
     "CVE-2015-4495",
     "CVE-2015-4852",
@@ -245,6 +246,7 @@
     "CVE-2015-5123",
     "CVE-2015-5287",
     "CVE-2015-5317",
+    "CVE-2015-5477",
     "CVE-2015-6175",
     "CVE-2015-7450",
     "CVE-2015-7645",
@@ -271,6 +273,7 @@
     "CVE-2016-20017",
     "CVE-2016-2386",
     "CVE-2016-2388",
+    "CVE-2016-3081",
     "CVE-2016-3088",
     "CVE-2016-3235",
     "CVE-2016-3298",
@@ -884,6 +887,7 @@
     "CVE-2021-31955",
     "CVE-2021-31956",
     "CVE-2021-31979",
+    "CVE-2021-3199",
     "CVE-2021-32030",
     "CVE-2021-32648",
     "CVE-2021-33044",
@@ -1122,6 +1126,7 @@
     "CVE-2023-22515",
     "CVE-2023-22518",
     "CVE-2023-22527",
+    "CVE-2023-22894",
     "CVE-2023-22952",
     "CVE-2023-23376",
     "CVE-2023-23397",
@@ -1786,7 +1791,7 @@
   "status": {
     "nvd": "ok",
     "kev": "ok",
-    "osv": "ok",
+    "osv": "no new advisories in window",
     "arxiv": "ok",
     "hn": "ok"
   }
