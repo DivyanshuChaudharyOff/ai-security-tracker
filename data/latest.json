@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "generated_at": "2026-10-09T10:49:07.980892+00:00",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T10:03:37.603988+00:00",
   "counts": {
     "nvd_cves": 12,
     "kev_total": 1739,
@@ -17,6 +17,13 @@
       "score": 8.3,
       "severity": "HIGH",
       "summary": "Dify is an open-source LLM app development platform. Prior to 1.13.0, the /console/api/remote-files/upload endpoint in api/controllers/web/remote_files.py accep"
+    },
+    {
+      "id": "CVE-2026-108159",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108159",
+      "score": 7.5,
+      "severity": "HIGH",
+      "summary": "AstronRPA through 1.1.6 contains a cross-site scripting vulnerability in the desktop client's smart-component chat that allows remote attackers to execute OS co"
     },
     {
       "id": "CVE-2026-105761",
@@ -38,13 +45,6 @@
       "score": 6.5,
       "severity": "MEDIUM",
       "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.28.0, the default mirrored multimodal LRU cache can commit a media hash in the fro"
-    },
-    {
-      "id": "CVE-2026-105754",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105754",
-      "score": 6.5,
-      "severity": "MEDIUM",
-      "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.30.0, the /inference/v1/generate endpoint in the disaggregated scale-out path acce"
     }
   ],
   "kev_ids": [
