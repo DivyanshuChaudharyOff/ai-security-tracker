@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "generated_at": "2026-10-10T10:03:37.603988+00:00",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T10:13:50.392194+00:00",
   "counts": {
     "nvd_cves": 12,
     "kev_total": 1739,
@@ -40,11 +40,11 @@
       "summary": "Banks generates meaningful LLM prompts using a simple template language. Prior to 2.5.0, Banks Prompt.chat_messages() attempts to parse every line of rendered t"
     },
     {
-      "id": "CVE-2026-105753",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105753",
+      "id": "CVE-2026-108581",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108581",
       "score": 6.5,
       "severity": "MEDIUM",
-      "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.28.0, the default mirrored multimodal LRU cache can commit a media hash in the fro"
+      "summary": "TencentCloud Octop through 1.0.2b6 contains a missing authorization vulnerability that allows authenticated low-privileged users to read stored provider API key"
     }
   ],
   "kev_ids": [
