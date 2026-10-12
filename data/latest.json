@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11T10:13:50.392194+00:00",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T11:12:30.729934+00:00",
   "counts": {
     "nvd_cves": 12,
     "kev_total": 1739,
@@ -26,6 +26,13 @@
       "summary": "AstronRPA through 1.1.6 contains a cross-site scripting vulnerability in the desktop client's smart-component chat that allows remote attackers to execute OS co"
     },
     {
+      "id": "CVE-2026-108863",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108863",
+      "score": 7.5,
+      "severity": "HIGH",
+      "summary": "Katanemo Plano through 0.4.37 contains a missing authentication vulnerability that allows unauthenticated network attackers to access the Envoy admin interface,"
+    },
+    {
       "id": "CVE-2026-105761",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105761",
       "score": 7.1,
@@ -38,13 +45,6 @@
       "score": 6.5,
       "severity": "MEDIUM",
       "summary": "Banks generates meaningful LLM prompts using a simple template language. Prior to 2.5.0, Banks Prompt.chat_messages() attempts to parse every line of rendered t"
-    },
-    {
-      "id": "CVE-2026-108581",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108581",
-      "score": 6.5,
-      "severity": "MEDIUM",
-      "summary": "TencentCloud Octop through 1.0.2b6 contains a missing authorization vulnerability that allows authenticated low-privileged users to read stored provider API key"
     }
   ],
   "kev_ids": [
