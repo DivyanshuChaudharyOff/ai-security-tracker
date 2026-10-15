@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14T08:56:36.207170+00:00",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:30:30.773167+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1741,
+    "kev_total": 1745,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -26,6 +26,13 @@
       "summary": "Crawl4AI from 0.9.0 before 0.9.4 contains an untrusted-config gate bypass that allows non-admin API clients to construct forbidden config objects by wrapping th"
     },
     {
+      "id": "CVE-2026-104103",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104103",
+      "score": 8.1,
+      "severity": "HIGH",
+      "summary": "Ludwig is a low-code framework for building custom LLMs, neural networks, and other AI models. Prior to 0.17.8, ludwig.datasets.archives.extract_archive() valid"
+    },
+    {
       "id": "CVE-2026-108159",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108159",
       "score": 7.5,
@@ -38,13 +45,6 @@
       "score": 7.5,
       "severity": "HIGH",
       "summary": "Katanemo Plano through 0.4.37 contains a missing authentication vulnerability that allows unauthenticated network attackers to access the Envoy admin interface,"
-    },
-    {
-      "id": "CVE-2026-110284",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110284",
-      "score": 7.5,
-      "severity": "HIGH",
-      "summary": "The LifterLMS \u2013 WP LMS for eLearning, Online Courses, & Quizzes plugin for WordPress is vulnerable to Local File Inclusion in versions up to, and including, 10."
     }
   ],
   "kev_ids": [
@@ -1620,11 +1620,14 @@
     "CVE-2025-9377",
     "CVE-2026-0257",
     "CVE-2026-0300",
+    "CVE-2026-0322",
     "CVE-2026-0770",
     "CVE-2026-102489",
     "CVE-2026-102490",
     "CVE-2026-104286",
     "CVE-2026-104935",
+    "CVE-2026-105133",
+    "CVE-2026-105134",
     "CVE-2026-10520",
     "CVE-2026-11645",
     "CVE-2026-12569",
@@ -1759,6 +1762,7 @@
     "CVE-2026-76460",
     "CVE-2026-76461",
     "CVE-2026-76504",
+    "CVE-2026-76519",
     "CVE-2026-8037",
     "CVE-2026-81578",
     "CVE-2026-81963",
