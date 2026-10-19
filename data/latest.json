@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T08:13:49.986937+00:00",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T09:11:52.889008+00:00",
   "counts": {
-    "nvd_cves": 10,
+    "nvd_cves": 8,
     "kev_total": 1748,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -40,11 +40,11 @@
       "summary": "Ludwig is a low-code framework for building custom LLMs, neural networks, and other AI models. Prior to 0.17.8, ludwig.datasets.archives.extract_archive() valid"
     },
     {
-      "id": "CVE-2026-108863",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108863",
+      "id": "CVE-2026-110284",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110284",
       "score": 7.5,
       "severity": "HIGH",
-      "summary": "Katanemo Plano through 0.4.37 contains a missing authentication vulnerability that allows unauthenticated network attackers to access the Envoy admin interface,"
+      "summary": "The LifterLMS \u2013 WP LMS for eLearning, Online Courses, & Quizzes plugin for WordPress is vulnerable to Local File Inclusion in versions up to, and including, 10."
     }
   ],
   "kev_ids": [
