@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T08:47:24.909384+00:00",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T08:47:52.730310+00:00",
   "counts": {
     "nvd_cves": 9,
-    "kev_total": 1748,
+    "kev_total": 1754,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
-    "arxiv_papers": 0,
+    "arxiv_papers": 10,
     "hn_stories": 10
   },
   "top_cves": [
@@ -40,11 +40,11 @@
       "summary": "Ludwig is a low-code framework for building custom LLMs, neural networks, and other AI models. Prior to 0.17.8, ludwig.datasets.archives.extract_archive() valid"
     },
     {
-      "id": "CVE-2026-110284",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110284",
+      "id": "CVE-2026-114106",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114106",
       "score": 7.5,
       "severity": "HIGH",
-      "summary": "The LifterLMS \u2013 WP LMS for eLearning, Online Courses, & Quizzes plugin for WordPress is vulnerable to Local File Inclusion in versions up to, and including, 10."
+      "summary": "HKUDS Vibe-Trading from 0.1.0 before 0.1.7 contains a path traversal vulnerability that allows remote attackers to read sensitive server files through LLM agent"
     }
   ],
   "kev_ids": [
@@ -1631,6 +1631,8 @@
     "CVE-2026-105133",
     "CVE-2026-105134",
     "CVE-2026-10520",
+    "CVE-2026-106931",
+    "CVE-2026-110936",
     "CVE-2026-11645",
     "CVE-2026-12569",
     "CVE-2026-1281",
@@ -1795,13 +1797,17 @@
     "CVE-2026-93952",
     "CVE-2026-94127",
     "CVE-2026-9586",
+    "CVE-2026-96652",
+    "CVE-2026-96654",
+    "CVE-2026-96655",
+    "CVE-2026-96656",
     "CVE-2026-96951"
   ],
   "status": {
     "nvd": "ok",
     "kev": "ok",
     "osv": "no new advisories in window",
-    "arxiv": "failed",
+    "arxiv": "ok",
     "hn": "ok"
   }
 }
