@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T09:15:13.808387+00:00",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T09:55:45.881237+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1758,
+    "kev_total": 1760,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -17,6 +17,13 @@
       "score": 9.9,
       "severity": "CRITICAL",
       "summary": "LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. From 1.87.0 until 1.100.4, 1.101.3, 1.102.2, 1.103.1, and 1.104.0-rc.2, th"
+    },
+    {
+      "id": "CVE-2026-116692",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116692",
+      "score": 9.8,
+      "severity": "CRITICAL",
+      "summary": "MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, third-party scorer"
     },
     {
       "id": "CVE-2026-115727",
@@ -38,13 +45,6 @@
       "score": 7.8,
       "severity": "HIGH",
       "summary": "llama.cpp b5899 before b10261 contains a heap out-of-bounds write vulnerability in llm_tokenizer_plamo2::build that allows attackers to corrupt heap memory via "
-    },
-    {
-      "id": "CVE-2026-114106",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114106",
-      "score": 7.5,
-      "severity": "HIGH",
-      "summary": "HKUDS Vibe-Trading from 0.1.0 before 0.1.7 contains a path traversal vulnerability that allows remote attackers to read sensitive server files through LLM agent"
     }
   ],
   "kev_ids": [
@@ -1636,6 +1636,7 @@
     "CVE-2026-109619",
     "CVE-2026-110447",
     "CVE-2026-110936",
+    "CVE-2026-111497",
     "CVE-2026-114625",
     "CVE-2026-11645",
     "CVE-2026-12569",
@@ -1725,6 +1726,7 @@
     "CVE-2026-48027",
     "CVE-2026-48172",
     "CVE-2026-48282",
+    "CVE-2026-48356",
     "CVE-2026-48558",
     "CVE-2026-48710",
     "CVE-2026-48907",
