@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T09:55:45.881237+00:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T10:18:03.521893+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1760,
+    "kev_total": 1762,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -26,6 +26,13 @@
       "summary": "MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, third-party scorer"
     },
     {
+      "id": "CVE-2026-117574",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117574",
+      "score": 9.1,
+      "severity": "CRITICAL",
+      "summary": "A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can exploit this vulnerability by submitting a request specifying another te"
+    },
+    {
       "id": "CVE-2026-115727",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115727",
       "score": 8.1,
@@ -38,13 +45,6 @@
       "score": 8.1,
       "severity": "HIGH",
       "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.32.0, ImageMediaIO passes attacker-controlled image bytes to Pillow through Image."
-    },
-    {
-      "id": "CVE-2026-116816",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116816",
-      "score": 7.8,
-      "severity": "HIGH",
-      "summary": "llama.cpp b5899 before b10261 contains a heap out-of-bounds write vulnerability in llm_tokenizer_plamo2::build that allows attackers to corrupt heap memory via "
     }
   ],
   "kev_ids": [
@@ -1712,6 +1712,7 @@
     "CVE-2026-39808",
     "CVE-2026-39987",
     "CVE-2026-41091",
+    "CVE-2026-41709",
     "CVE-2026-41940",
     "CVE-2026-42016",
     "CVE-2026-42018",
@@ -1722,6 +1723,7 @@
     "CVE-2026-45321",
     "CVE-2026-45498",
     "CVE-2026-45659",
+    "CVE-2026-46300",
     "CVE-2026-46817",
     "CVE-2026-48027",
     "CVE-2026-48172",
