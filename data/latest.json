@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T11:22:26.575034+00:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T11:20:12.407238+00:00",
   "counts": {
-    "nvd_cves": 3,
-    "kev_total": 1767,
+    "nvd_cves": 1,
+    "kev_total": 1768,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -17,20 +17,6 @@
       "score": 10.0,
       "severity": "CRITICAL",
       "summary": "Prefab UI's Generative UI sandbox runs caller-supplied Python inside Pyodide, Python compiled to WebAssembly, in a Deno subprocess. The feature is documented as"
-    },
-    {
-      "id": "CVE-2026-117574",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117574",
-      "score": 9.1,
-      "severity": "CRITICAL",
-      "summary": "A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can exploit this vulnerability by submitting a request specifying another te"
-    },
-    {
-      "id": "CVE-2026-115415",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115415",
-      "score": 6.5,
-      "severity": "MEDIUM",
-      "summary": "Improper neutralization of input used for LLM prompting in the environment tool in Strands Agents Tools before 0.8.6 might allow remote actors to obtain the age"
     }
   ],
   "kev_ids": [
@@ -1298,6 +1284,7 @@
     "CVE-2024-27199",
     "CVE-2024-27348",
     "CVE-2024-27443",
+    "CVE-2024-27834",
     "CVE-2024-28986",
     "CVE-2024-28987",
     "CVE-2024-28995",
