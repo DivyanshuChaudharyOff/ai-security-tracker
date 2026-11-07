@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T11:17:42.031383+00:00",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T10:32:28.970493+00:00",
   "counts": {
-    "nvd_cves": 1,
-    "kev_total": 1768,
+    "nvd_cves": 3,
+    "kev_total": 1769,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -17,6 +17,20 @@
       "score": 10.0,
       "severity": "CRITICAL",
       "summary": "Prefab UI's Generative UI sandbox runs caller-supplied Python inside Pyodide, Python compiled to WebAssembly, in a Deno subprocess. The feature is documented as"
+    },
+    {
+      "id": "CVE-2026-123653",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123653",
+      "score": 6.3,
+      "severity": "MEDIUM",
+      "summary": "A security vulnerability has been detected in esengine DeepSeek-Reasonix up to 2.52.0. Affected is the function discoverDocs of the file internal/memory/doc.go."
+    },
+    {
+      "id": "CVE-2026-106020",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106020",
+      "score": null,
+      "severity": null,
+      "summary": "Improper neutralization of input used for LLM prompting vulnerability in Johnson Controls EasyIO Neo IO Manager and Tools Installer allows Search Order Hijackin"
     }
   ],
   "kev_ids": [
@@ -1627,6 +1641,7 @@
     "CVE-2026-18556",
     "CVE-2026-18577",
     "CVE-2026-19490",
+    "CVE-2026-19868",
     "CVE-2026-20045",
     "CVE-2026-20079",
     "CVE-2026-20122",
