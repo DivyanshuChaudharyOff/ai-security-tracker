@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T10:40:03.083032+00:00",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T11:56:49.115923+00:00",
   "counts": {
-    "nvd_cves": 3,
+    "nvd_cves": 2,
     "kev_total": 1769,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -11,13 +11,6 @@
     "hn_stories": 10
   },
   "top_cves": [
-    {
-      "id": "CVE-2026-120338",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120338",
-      "score": 10.0,
-      "severity": "CRITICAL",
-      "summary": "Prefab UI's Generative UI sandbox runs caller-supplied Python inside Pyodide, Python compiled to WebAssembly, in a Deno subprocess. The feature is documented as"
-    },
     {
       "id": "CVE-2026-123653",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123653",
