@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T11:56:49.115923+00:00",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T11:30:00.951310+00:00",
   "counts": {
-    "nvd_cves": 2,
-    "kev_total": 1769,
+    "nvd_cves": 3,
+    "kev_total": 1773,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -11,6 +11,13 @@
     "hn_stories": 10
   },
   "top_cves": [
+    {
+      "id": "CVE-2026-123818",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123818",
+      "score": 7.5,
+      "severity": "HIGH",
+      "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. From 0.12.3 until 0.15.0, _is_safe_url validates remote media URLs with url"
+    },
     {
       "id": "CVE-2026-123653",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123653",
@@ -1606,6 +1613,7 @@
     "CVE-2026-102489",
     "CVE-2026-102490",
     "CVE-2026-102764",
+    "CVE-2026-102895",
     "CVE-2026-104286",
     "CVE-2026-104935",
     "CVE-2026-105133",
@@ -1620,8 +1628,11 @@
     "CVE-2026-111497",
     "CVE-2026-114625",
     "CVE-2026-11645",
+    "CVE-2026-116779",
     "CVE-2026-118527",
     "CVE-2026-119977",
+    "CVE-2026-123158",
+    "CVE-2026-123218",
     "CVE-2026-12569",
     "CVE-2026-1281",
     "CVE-2026-1340",
