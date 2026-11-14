@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T11:22:46.611715+00:00",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:45:56.717227+00:00",
   "counts": {
-    "nvd_cves": 7,
-    "kev_total": 1779,
+    "nvd_cves": 6,
+    "kev_total": 1781,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -12,18 +12,18 @@
   },
   "top_cves": [
     {
+      "id": "CVE-2026-68905",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68905",
+      "score": 8.2,
+      "severity": "HIGH",
+      "summary": "Hugo Blog is a tech blog site. In commit 744ca15 and prior, the AI assistant proxy exposes three HTTP endpoints (POST /api/blog-assistant, POST /api/blog-search"
+    },
+    {
       "id": "CVE-2026-123818",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123818",
       "score": 7.5,
       "severity": "HIGH",
       "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. From 0.12.3 until 0.15.0, _is_safe_url validates remote media URLs with url"
-    },
-    {
-      "id": "CVE-2026-123653",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123653",
-      "score": 6.3,
-      "severity": "MEDIUM",
-      "summary": "A security vulnerability has been detected in esengine DeepSeek-Reasonix up to 2.52.0. Affected is the function discoverDocs of the file internal/memory/doc.go."
     },
     {
       "id": "CVE-2026-125326",
@@ -1643,11 +1643,13 @@
     "CVE-2026-111560",
     "CVE-2026-111793",
     "CVE-2026-114625",
+    "CVE-2026-114713",
     "CVE-2026-11645",
     "CVE-2026-116606",
     "CVE-2026-116779",
     "CVE-2026-118527",
     "CVE-2026-119977",
+    "CVE-2026-123039",
     "CVE-2026-123158",
     "CVE-2026-123218",
     "CVE-2026-124194",
