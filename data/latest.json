@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T11:20:57.298715+00:00",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T11:54:12.684249+00:00",
   "counts": {
-    "nvd_cves": 5,
+    "nvd_cves": 6,
     "kev_total": 1781,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
-    "arxiv_papers": 10,
+    "arxiv_papers": 7,
     "hn_stories": 10
   },
   "top_cves": [
@@ -17,6 +17,13 @@
       "score": 8.2,
       "severity": "HIGH",
       "summary": "Hugo Blog is a tech blog site. In commit 744ca15 and prior, the AI assistant proxy exposes three HTTP endpoints (POST /api/blog-assistant, POST /api/blog-search"
+    },
+    {
+      "id": "CVE-2026-123818",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123818",
+      "score": 7.5,
+      "severity": "HIGH",
+      "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. From 0.12.3 until 0.15.0, _is_safe_url validates remote media URLs with url"
     },
     {
       "id": "CVE-2026-125326",
@@ -38,13 +45,6 @@
       "score": 4.2,
       "severity": "MEDIUM",
       "summary": "TaxHacker through 0.8.5 contains an insecure direct object reference vulnerability in app/(app)/settings/actions.ts that allows authenticated users to modify ot"
-    },
-    {
-      "id": "CVE-2026-92544",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92544",
-      "score": null,
-      "severity": null,
-      "summary": "SQL injection in the LLM usage counters of Kong Gateway Enterprise and Kong AI Gateway may allow a client to execute arbitrary SQL against the Kong database via"
     }
   ],
   "kev_ids": [
