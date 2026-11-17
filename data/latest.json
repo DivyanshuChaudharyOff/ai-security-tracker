@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16T11:54:12.684249+00:00",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T12:15:56.955455+00:00",
   "counts": {
-    "nvd_cves": 6,
+    "nvd_cves": 7,
     "kev_total": 1781,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
-    "arxiv_papers": 7,
+    "arxiv_papers": 0,
     "hn_stories": 10
   },
   "top_cves": [
@@ -19,11 +19,11 @@
       "summary": "Hugo Blog is a tech blog site. In commit 744ca15 and prior, the AI assistant proxy exposes three HTTP endpoints (POST /api/blog-assistant, POST /api/blog-search"
     },
     {
-      "id": "CVE-2026-123818",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123818",
+      "id": "CVE-2026-129877",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129877",
       "score": 7.5,
       "severity": "HIGH",
-      "summary": "LMDeploy is a toolkit for compressing, deploying, and serving large language models. From 0.12.3 until 0.15.0, _is_safe_url validates remote media URLs with url"
+      "summary": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through t"
     },
     {
       "id": "CVE-2026-125326",
@@ -40,11 +40,11 @@
       "summary": "pgEdge Go LLM Library provides a unified Go interface for multiple LLM providers with streaming, tool calling, retries, and an HTTP and server-sent events proxy"
     },
     {
-      "id": "CVE-2026-125749",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125749",
-      "score": 4.2,
+      "id": "CVE-2026-130076",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130076",
+      "score": 5.8,
       "severity": "MEDIUM",
-      "summary": "TaxHacker through 0.8.5 contains an insecure direct object reference vulnerability in app/(app)/settings/actions.ts that allows authenticated users to modify ot"
+      "summary": "crw-server before 0.45.1 contains a server-side request forgery vulnerability that allows unauthenticated attackers to reach internal services by supplying an u"
     }
   ],
   "kev_ids": [
@@ -1834,7 +1834,7 @@
     "nvd": "ok",
     "kev": "ok",
     "osv": "no new advisories in window",
-    "arxiv": "ok",
+    "arxiv": "failed",
     "hn": "ok"
   }
 }
