@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T12:15:56.955455+00:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T12:03:09.804031+00:00",
   "counts": {
-    "nvd_cves": 7,
-    "kev_total": 1781,
+    "nvd_cves": 4,
+    "kev_total": 1782,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
-    "arxiv_papers": 0,
+    "arxiv_papers": 10,
     "hn_stories": 10
   },
   "top_cves": [
@@ -26,18 +26,11 @@
       "summary": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through t"
     },
     {
-      "id": "CVE-2026-125326",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125326",
-      "score": 5.8,
+      "id": "CVE-2026-130595",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130595",
+      "score": 5.9,
       "severity": "MEDIUM",
-      "summary": "pgEdge RAG Server is an API server for retrieval-augmented generation over PostgreSQL content using pgvector. Prior to 2.0.0, the unauthenticated query API in i"
-    },
-    {
-      "id": "CVE-2026-125328",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125328",
-      "score": 5.8,
-      "severity": "MEDIUM",
-      "summary": "pgEdge Go LLM Library provides a unified Go interface for multiple LLM providers with streaming, tool calling, retries, and an HTTP and server-sent events proxy"
+      "summary": "SQLBot 1.10.0 through 1.10.3 fails to apply its PostgreSQL dangerous-function denylist because DS_SPECIFIC_DANGEROUS_FUNCTIONS uses 'postgresql' while lookups u"
     },
     {
       "id": "CVE-2026-130076",
@@ -1644,6 +1637,7 @@
     "CVE-2026-111793",
     "CVE-2026-114625",
     "CVE-2026-114713",
+    "CVE-2026-115731",
     "CVE-2026-11645",
     "CVE-2026-116606",
     "CVE-2026-116779",
@@ -1834,7 +1828,7 @@
     "nvd": "ok",
     "kev": "ok",
     "osv": "no new advisories in window",
-    "arxiv": "failed",
+    "arxiv": "ok",
     "hn": "ok"
   }
 }
