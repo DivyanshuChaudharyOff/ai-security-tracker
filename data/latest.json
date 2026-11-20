@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19T11:59:00.415457+00:00",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T12:00:06.644324+00:00",
   "counts": {
-    "nvd_cves": 6,
+    "nvd_cves": 12,
     "kev_total": 1786,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -11,6 +11,27 @@
     "hn_stories": 10
   },
   "top_cves": [
+    {
+      "id": "CVE-2026-131236",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131236",
+      "score": 8.8,
+      "severity": "HIGH",
+      "summary": "In Splunk Enterprise Security versions below 8.7.0, an unauthenticated user who can influence indexed event data could store attacker-controlled values in event"
+    },
+    {
+      "id": "CVE-2026-76538",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76538",
+      "score": 8.8,
+      "severity": "HIGH",
+      "summary": "In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.16, a user who does not hold the \"admin\" or \"power\" Splunk roles could cause Splunk Enterpr"
+    },
+    {
+      "id": "CVE-2026-131203",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131203",
+      "score": 8.3,
+      "severity": "HIGH",
+      "summary": "In Splunk Enterprise Security versions below 8.7.0, a user who holds the \"ess_analyst\" Splunk Enterprise Security role could modify a search macro associated wi"
+    },
     {
       "id": "CVE-2026-68905",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68905",
@@ -24,27 +45,6 @@
       "score": 7.7,
       "severity": "HIGH",
       "summary": "LLMKube is a Kubernetes operator for self-hosted large language model inference across heterogeneous hardware. Prior to 0.9.0, the ModelReconciler accepts arbit"
-    },
-    {
-      "id": "CVE-2026-129877",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129877",
-      "score": 7.5,
-      "severity": "HIGH",
-      "summary": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through t"
-    },
-    {
-      "id": "CVE-2026-75612",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75612",
-      "score": 7.5,
-      "severity": "HIGH",
-      "summary": "yt-mcp is a YouTrack MCP server for Claude Code. Prior to 1.18.1, add_attachment in src/yt_mcp/tools/attachments.py accepts a caller-controlled file_path, check"
-    },
-    {
-      "id": "CVE-2026-130595",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130595",
-      "score": 5.9,
-      "severity": "MEDIUM",
-      "summary": "SQLBot 1.10.0 through 1.10.3 fails to apply its PostgreSQL dangerous-function denylist because DS_SPECIFIC_DANGEROUS_FUNCTIONS uses 'postgresql' while lookups u"
     }
   ],
   "kev_ids": [
