@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T12:00:06.644324+00:00",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T11:33:18.282083+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1786,
+    "kev_total": 1790,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
@@ -33,18 +33,18 @@
       "summary": "In Splunk Enterprise Security versions below 8.7.0, a user who holds the \"ess_analyst\" Splunk Enterprise Security role could modify a search macro associated wi"
     },
     {
-      "id": "CVE-2026-68905",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68905",
-      "score": 8.2,
-      "severity": "HIGH",
-      "summary": "Hugo Blog is a tech blog site. In commit 744ca15 and prior, the AI assistant proxy exposes three HTTP endpoints (POST /api/blog-assistant, POST /api/blog-search"
-    },
-    {
       "id": "CVE-2026-68903",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68903",
       "score": 7.7,
       "severity": "HIGH",
       "summary": "LLMKube is a Kubernetes operator for self-hosted large language model inference across heterogeneous hardware. Prior to 0.9.0, the ModelReconciler accepts arbit"
+    },
+    {
+      "id": "CVE-2026-129877",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129877",
+      "score": 7.5,
+      "severity": "HIGH",
+      "summary": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through t"
     }
   ],
   "kev_ids": [
@@ -1542,6 +1542,7 @@
     "CVE-2025-40602",
     "CVE-2025-41244",
     "CVE-2025-42599",
+    "CVE-2025-42884",
     "CVE-2025-42999",
     "CVE-2025-43200",
     "CVE-2025-43300",
@@ -1654,10 +1655,12 @@
     "CVE-2026-123039",
     "CVE-2026-123158",
     "CVE-2026-123218",
+    "CVE-2026-123890",
     "CVE-2026-124194",
     "CVE-2026-125350",
     "CVE-2026-12569",
     "CVE-2026-1281",
+    "CVE-2026-129448",
     "CVE-2026-1340",
     "CVE-2026-15409",
     "CVE-2026-15410",
@@ -1795,6 +1798,7 @@
     "CVE-2026-76418",
     "CVE-2026-76460",
     "CVE-2026-76461",
+    "CVE-2026-76466",
     "CVE-2026-76504",
     "CVE-2026-76519",
     "CVE-2026-8037",
