@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T11:33:18.282083+00:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T11:47:22.494887+00:00",
   "counts": {
     "nvd_cves": 12,
     "kev_total": 1790,
@@ -33,18 +33,18 @@
       "summary": "In Splunk Enterprise Security versions below 8.7.0, a user who holds the \"ess_analyst\" Splunk Enterprise Security role could modify a search macro associated wi"
     },
     {
-      "id": "CVE-2026-68903",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68903",
-      "score": 7.7,
+      "id": "CVE-2026-99506",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99506",
+      "score": 7.8,
       "severity": "HIGH",
-      "summary": "LLMKube is a Kubernetes operator for self-hosted large language model inference across heterogeneous hardware. Prior to 0.9.0, the ModelReconciler accepts arbit"
+      "summary": "In the Linux kernel, the following vulnerability has been resolved: mm/hugetlb: fix use-after-free of a new anon folio For a fault in a private mapping with not"
     },
     {
-      "id": "CVE-2026-129877",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129877",
-      "score": 7.5,
+      "id": "CVE-2026-99654",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99654",
+      "score": 7.8,
       "severity": "HIGH",
-      "summary": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through t"
+      "summary": "In the Linux kernel, the following vulnerability has been resolved: mm: fix unmap_mapping_range() beyond 4 GiB on 32-bit Commit 9eab0421fa94 (\"mm: fix unmap_map"
     }
   ],
   "kev_ids": [
