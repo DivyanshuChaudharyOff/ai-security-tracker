@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T13:27:40.806154+00:00",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T14:05:29.221221+00:00",
   "counts": {
     "nvd_cves": 12,
-    "kev_total": 1790,
+    "kev_total": 1792,
     "kev_recent": 8,
     "kev_ai_matches": 0,
     "osv_advisories": 0,
-    "arxiv_papers": 10,
+    "arxiv_papers": 0,
     "hn_stories": 10
   },
   "top_cves": [
@@ -1661,7 +1661,9 @@
     "CVE-2026-12569",
     "CVE-2026-1281",
     "CVE-2026-129448",
+    "CVE-2026-133968",
     "CVE-2026-1340",
+    "CVE-2026-134624",
     "CVE-2026-15409",
     "CVE-2026-15410",
     "CVE-2026-1603",
@@ -1843,7 +1845,7 @@
     "nvd": "ok",
     "kev": "ok",
     "osv": "no new advisories in window",
-    "arxiv": "ok",
+    "arxiv": "failed",
     "hn": "ok"
   }
 }
