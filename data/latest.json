@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T12:59:41.295617+00:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:55:43.873187+00:00",
   "counts": {
-    "nvd_cves": 12,
+    "nvd_cves": 3,
     "kev_total": 1805,
     "kev_recent": 8,
     "kev_ai_matches": 0,
@@ -12,39 +12,25 @@
   },
   "top_cves": [
     {
-      "id": "CVE-2026-131236",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131236",
-      "score": 8.8,
-      "severity": "HIGH",
-      "summary": "In Splunk Enterprise Security versions below 8.7.0, an unauthenticated user who can influence indexed event data could store attacker-controlled values in event"
+      "id": "CVE-2026-136453",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136453",
+      "score": 6.5,
+      "severity": "MEDIUM",
+      "summary": "browser-use before 1.0.0 contains an allowlist bypass vulnerability in the SecurityWatchdog's _is_url_match function that allows attackers to bypass domain rest"
     },
     {
-      "id": "CVE-2026-76538",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76538",
-      "score": 8.8,
-      "severity": "HIGH",
-      "summary": "In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.16, a user who does not hold the \"admin\" or \"power\" Splunk roles could cause Splunk Enterpr"
+      "id": "CVE-2026-132255",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132255",
+      "score": 6.5,
+      "severity": "MEDIUM",
+      "summary": "AutoGPT is a workflow automation platform for creating, deploying, and managing continuous artificial intelligence agents. From 0.3.4 before 0.11.0, LLM and oth"
     },
     {
-      "id": "CVE-2026-131203",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131203",
-      "score": 8.3,
-      "severity": "HIGH",
-      "summary": "In Splunk Enterprise Security versions below 8.7.0, a user who holds the \"ess_analyst\" Splunk Enterprise Security role could modify a search macro associated wi"
-    },
-    {
-      "id": "CVE-2026-99506",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99506",
-      "score": 7.8,
-      "severity": "HIGH",
-      "summary": "In the Linux kernel, the following vulnerability has been resolved: mm/hugetlb: fix use-after-free of a new anon folio For a fault in a private mapping with not"
-    },
-    {
-      "id": "CVE-2026-99654",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99654",
-      "score": 7.8,
-      "severity": "HIGH",
-      "summary": "In the Linux kernel, the following vulnerability has been resolved: mm: fix unmap_mapping_range() beyond 4 GiB on 32-bit Commit 9eab0421fa94 (\"mm: fix unmap_map"
+      "id": "CVE-2026-136452",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136452",
+      "score": 6.1,
+      "severity": "MEDIUM",
+      "summary": "browser-use before 1.0.0 contains a URL parser differential vulnerability in SecurityWatchdog that allows attackers to bypass allowed_domains, prohibited_domain"
     }
   ],
   "kev_ids": [
